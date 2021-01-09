@@ -402,6 +402,7 @@ Configurable env vars:
 DEBUG                   Enable debug printing. Default: True
 CONFIG_FILE             File to write config to Default: ./inventory/sample/hosts.yaml
 HOST_PREFIX             Host prefix for generated hosts. Default: node
+KUBE_MASTERS_MASTERS    Set the number of kube-masters. Default: 2
 SCALE_THRESHOLD         Separate ETCD role if # of nodes >= 50
 MASSIVE_SCALE_THRESHOLD Separate K8s master and ETCD if # of nodes >= 200
 '''  # noqa
